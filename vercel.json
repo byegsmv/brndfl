@@ -1,5 +1,5 @@
 {
-  "installCommand": "cd backend && npm install && npx prisma generate",
+  "installCommand": "cd backend && npm install --include=dev && npx prisma generate",
   "buildCommand": "echo static",
   "outputDirectory": ".",
   "functions": {
