@@ -3,7 +3,8 @@
   "buildCommand": "echo static",
   "outputDirectory": ".",
   "functions": {
-    "api/index.js": { "includeFiles": "backend/**" },
-    "api/[...path].js": { "includeFiles": "backend/**" }
+    "api/*.js": {
+      "includeFiles": "backend/**"
+    }
   }
 }
