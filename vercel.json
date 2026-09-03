@@ -1,0 +1,9 @@
+{
+  "installCommand": "cd backend && npm install && npx prisma generate",
+  "buildCommand": "echo static",
+  "outputDirectory": ".",
+  "functions": {
+    "api/index.js": { "includeFiles": "backend/**" },
+    "api/[...path].js": { "includeFiles": "backend/**" }
+  }
+}
