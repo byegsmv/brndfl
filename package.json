@@ -1,0 +1,10 @@
+{
+  "name": "brandfull",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Brandfull CMS - frontend + backend API",
+  "scripts": {
+    "dev": "cd backend && npm run dev"
+  }
+}
